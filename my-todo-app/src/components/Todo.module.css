@@ -1,0 +1,71 @@
+.todoForm {
+    background-color: rgb(240, 240, 240);
+    margin: 0% auto;
+    width: 500px;
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 82px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.todotasks {
+    background-color: rgb(240, 240, 240);
+    display: block;
+    width: 100%;
+    border: none;
+    color: rgb(50, 50, 50);
+}
+
+.todotasks:focus {
+    outline: none;
+}
+
+.inputButton {
+    background-color: rgb(179, 30, 37);
+    color: white;
+    padding: 15px 23px;
+    display: inline-block;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.inputContainer {
+    display: flex;
+}
+
+.todoList {
+    background-color: rgb(240, 240, 240);
+    max-width: 500px;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 0 auto;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+}
+
+
+
+.items {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hrLine {
+    border: 1px solid rgb(120, 120, 120);
+}
+
+.deleteItem {
+    float: right;
+    border: none;
+    background-color: rgb(179, 30, 37);
+    color: white;
+    padding: 10px 15px;
+    border-radius: 8px;
+    margin-top: -5px;
+    cursor: pointer;
+    
+}
