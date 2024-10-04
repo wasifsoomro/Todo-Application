@@ -1,19 +1,20 @@
+/* Form Styling */
 .todoForm {
-    background-color: rgb(240, 240, 240);
+    background-color: rgb(248, 250, 252); /* Soft White for a clean look */
     margin: 0% auto;
     width: 500px;
     border-radius: 8px;
     padding: 20px;
     margin-top: 82px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* Slightly increased shadow for depth */
 }
 
 .todotasks {
-    background-color: rgb(240, 240, 240);
+    background-color: rgb(255, 255, 255); /* Bright White for contrast */
     display: block;
     width: 100%;
-    border: none;
-    color: rgb(50, 50, 50);
+    border: rgb(220, 220, 220); /* Light Gray Border */
+    color: rgb(34, 34, 34); /* Dark Gray for better readability */
 }
 
 .todotasks:focus {
@@ -21,30 +22,34 @@
 }
 
 .inputButton {
-    background-color: rgb(179, 30, 37);
+    background-color: rgb(60, 179, 113); /* Medium Sea Green */
     color: white;
     padding: 15px 23px;
     display: inline-block;
-    border: none;
+    border: none; /* Remove border for a clean look */
     cursor: pointer;
     border-radius: 4px;
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+.inputButton:hover {
+    background-color: rgb(50, 150, 95); /* Darker shade on hover */
 }
 
 .inputContainer {
     display: flex;
+    color: rgb(100, 100, 100); /* Mid Gray */
 }
 
 .todoList {
-    background-color: rgb(240, 240, 240);
+    background-color: rgb(248, 250, 252); /* Soft White for consistency */
     max-width: 500px;
     border-radius: 8px;
     padding: 20px;
     margin: 0 auto;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* Increased shadow for depth */
     margin-top: 30px;
 }
-
-
 
 .items {
     font-size: 20px;
@@ -54,18 +59,24 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* HR Line */
 .hrLine {
-    border: 1px solid rgb(120, 120, 120);
+    border: 1px solid rgb(220, 220, 220); /* Light Gray for subtlety */
 }
 
 .deleteItem {
     float: right;
     border: none;
-    background-color: rgb(179, 30, 37);
+    background-color: rgb(255, 69, 58); /* Bright Red for action */
     color: white;
     padding: 10px 15px;
     border-radius: 8px;
     margin-top: -5px;
     cursor: pointer;
-    
+    transition: background-color 0.3s; /* Smooth transition */
 }
+
+.deleteItem:hover {
+    background-color: rgb(220, 0, 0); /* Darker red on hover */
+}
+

@@ -1,14 +1,15 @@
+/* Header Styling */
 .header {
     position: fixed;
     margin-top: auto;
     top: 0;
     width: 100%;
-    background-color: rgb(179, 30, 37);
+    background-color: rgb(25, 25, 112); /* Midnight Blue */
     text-align: center;
     padding: 10px;
     height: 50px;
     font-weight: bold;
     font-size: 40px;
     font-family: Arial, Helvetica, sans-serif;
-    color: white;
+    color: rgb(245, 245, 220); /* Ivory */
 }
