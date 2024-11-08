@@ -10,9 +10,11 @@ export default function Footer({totalTasks, completedTasks, pendingTasks}: Foote
  
   return (
     <div className={styles.footerContainer}>
+      <div className={styles.textcontainer}>
       <span className={styles.total}>Total Todos {totalTasks}</span>
       <span className={styles.complete}>Completed Todos {completedTasks}</span>
       <span className={styles.pending}>Pending Todos {pendingTasks}</span>
+      </div>
     </div>
   )
 }
